@@ -24,7 +24,7 @@ function EventsModal(props) {
 			<Modal.Body>
 				<p>{props.event.description}</p>
 				<p>{props.event.metaData?.dateStart}</p>
-				<LoadScript googleMapsApiKey="AIzaSyAlkYkBWlu9dHfLbJMgZSeHhiXgtuuO124">
+				<LoadScript googleMapsApiKey="API_Key">
 					<GoogleMap
 						mapContainerStyle={containerStyle}
 						center={center}
